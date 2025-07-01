@@ -1,21 +1,3 @@
-// import React from "react";
-
-// const Navbar = () => {
-//   return (
-//     <header style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '1.5rem', borderBottom: '1px solid #333' }}>
-//       <div style={{ fontSize: '1.5rem', fontWeight: 'bold', color: '#00bfff' }}>AiAzure</div>
-//       <nav style={{ color: '#ccc' }}>
-//         <a href="#services" style={{ margin: '0 1rem', textDecoration: 'none', color: '#ccc' }}>Services</a>
-//         <a href="#process" style={{ margin: '0 1rem', textDecoration: 'none', color: '#ccc' }}>Process</a>
-//         <a href="#about" style={{ margin: '0 1rem', textDecoration: 'none', color: '#ccc' }}>About</a>
-//         <a href="#contact" style={{ margin: '0 1rem', textDecoration: 'none', color: '#ccc' }}>Contact</a>
-//       </nav>
-//     </header>
-//   );
-// };
-
-// export default Navbar;
-
 import React, { useState, useEffect } from "react";
 
 const Navbar = () => {
@@ -67,7 +49,7 @@ const Navbar = () => {
                 top: "100%",
                 left: 0,
                 width: "100%",
-                backgroundColor: "#0c0c0c",
+                backgroundColor: "#222",
                 borderTop: "1px solid #333",
                 textAlign: "center",
               }}
