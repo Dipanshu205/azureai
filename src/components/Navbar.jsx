@@ -27,9 +27,11 @@ const Navbar = () => {
         alignItems: "center",
       }}
     >
-      <div style={{ fontSize: "1.5rem", fontWeight: "bold", color: "#00bfff" }}>
+      <a href="/" style={{textDecoration: "none" }}>
+        <div style={{ fontSize: "1.5rem", fontWeight: "bold", color: "#00bfff", }}>
         AiAzure
       </div>
+      </a>
 
       {isMobile ? (
         <>

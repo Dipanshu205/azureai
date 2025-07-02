@@ -11,7 +11,7 @@ import Footer from "./components/Footer";
 
 const App = () => {
   useEffect(() => {
-    AOS.init({ duration: 1000, once: true });
+    AOS.init({ duration: 1200, once: true });
   }, []);
   return (
     <main style={{ fontFamily: 'Arial, sans-serif', color: 'white', backgroundColor: '#0c0c0c' }}>
