@@ -42,7 +42,7 @@ export default function ContactComponent() {
         <section id="contact" 
         data-aos="fade-up"
         
-        style={{ margin: '2rem', padding: '2rem 1rem', backgroundColor: '#0c0c0c', color: 'white' }}>
+        style={{ margin: '1rem', padding: '4rem 1rem', backgroundColor: '#0c0c0c', color: 'white' }}>
             <div style={{ maxWidth: '1200px', margin: 'auto' }}>
                 <h2 style={{ fontSize: '2rem', fontWeight: 'bold', textAlign: 'center', marginBottom: '0.5rem' }}>Contact Us</h2>
                 <p style={{ textAlign: 'center', color: '#aaa', marginBottom: '2.5rem' }}>We're here to elevate your experience.</p>
