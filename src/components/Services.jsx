@@ -15,7 +15,10 @@ const Services = () => {
       <h2 style={{ textAlign: 'center', fontSize: '2rem', marginBottom: '2rem' }}>Our Services</h2>
       <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '1.5rem' }}>
         {services.map((service) => (
-          <div key={service} style={{ backgroundColor: '#222', padding: '1.5rem', borderRadius: '15px', width: '250px', textAlign: 'center' }}>
+
+          <div key={service} 
+          data-aos="zoom-in"
+          style={{ backgroundColor: '#222', padding: '1.5rem', borderRadius: '15px', width: '250px', textAlign: 'center' }}>
             <h3 style={{ fontSize: '1.2rem', marginBottom: '0.5rem' }}>{service}</h3>
             <p style={{ color: '#aaa', fontSize: '0.95rem' }}>
               Professional, scalable, and accurate {service.toLowerCase()} for your AI models.

@@ -17,7 +17,9 @@ const steps = [
 
 const Process = () => {
   return (
-    <section id="process" style={{ padding: '4rem 1rem', backgroundColor: '#0c0c0c' }}>
+    <section id="process" 
+    data-aos="fade-right"
+    style={{ padding: '4rem 1rem', backgroundColor: '#0c0c0c' }}>
       <h2 style={{ textAlign: 'center', fontSize: '2rem', marginBottom: '2rem' }}>How It Works</h2>
       <div style={{ maxWidth: '800px', margin: 'auto', color: '#ccc' }}>
         {steps.map((step, index) => (
